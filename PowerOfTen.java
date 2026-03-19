@@ -10,18 +10,19 @@ public class PowerOfTen {
         int n = sc.nextInt();
         sc.close();
 
-        if (n > 0) {
-           while (n % 10 == 0) {
-                n = n/10;
+        if(n > 0){
+
+            while(n%10 == 0) {
+                n = n / 10;
             }
-            if (n == 1) {
-                System.out.println("given number is power of ten");
-            }else {
-                System.out.println("given number is not power of ten");
+                if(n ==1){
+                    System.out.println("given number is power of ten");
+                }else
+                    System.out.println("given number is not a power of ten");
             }
         }
     }
-}
+
 
 
 
